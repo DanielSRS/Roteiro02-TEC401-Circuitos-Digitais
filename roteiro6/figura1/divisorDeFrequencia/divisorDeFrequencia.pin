@@ -36,7 +36,7 @@
  ------------------------------------------------------------------------------
 
 
-File Generation Date & Time: Fri Aug 09 03:29:43 2019
+File Generation Date & Time: Fri Sep 06 11:04:39 2019
 Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
 CHIP  "divisorDeFrequencia"  ASSIGNED TO AN: EP1K100QC208-3
 
@@ -52,7 +52,7 @@ GND*                         : 7         :        :                   :         
 GND*                         : 8         :        :                   :         :           :                
 GND*                         : 9         :        :                   :         :           :                
 GND*                         : 10        :        :                   :         :           :                
-GND*                         : 11        :        :                   :         :           :                
+CLKD                         : 11        : output : LVTTL/LVCMOS      :         :           : N              
 GND*                         : 12        :        :                   :         :           :                
 GND*                         : 13        :        :                   :         :           :                
 GND*                         : 14        :        :                   :         :           :                
@@ -81,7 +81,7 @@ GND*                         : 36        :        :                   :         
 GND*                         : 37        :        :                   :         :           :                
 GND*                         : 38        :        :                   :         :           :                
 GND*                         : 39        :        :                   :         :           :                
-CLKdividido                  : 40        : output : LVTTL/LVCMOS      :         :           : N              
+GND*                         : 40        :        :                   :         :           :                
 GND*                         : 41        :        :                   :         :           :                
 VCC_IO                       : 42        : power  :                   : 3.3V    :           :                
 GND                          : 43        : gnd    :                   :         :           :                
@@ -120,7 +120,7 @@ GND*                         : 75        :        :                   :         
 GND                          : 76        : gnd    :                   :         :           :                
 VCC_CKLK                     : 77        : power  :                   : 2.5V    :           :                
 GND+                         : 78        :        :                   :         :           :                
-CLK                          : 79        : input  : LVTTL/LVCMOS      :         :           : N              
+Oscilador                    : 79        : input  : LVTTL/LVCMOS      :         :           : N              
 GND+                         : 80        :        :                   :         :           :                
 GND_CKLK                     : 81        : gnd    :                   :         :           :                
 GND                          : 82        : gnd    :                   :         :           :                
@@ -225,7 +225,7 @@ GND*                         : 180       :        :                   :         
 GND                          : 181       : gnd    :                   :         :           :                
 GND+                         : 182       :        :                   :         :           :                
 GND+                         : 183       :        :                   :         :           :                
-GND+                         : 184       :        :                   :         :           :                
+Limpar                       : 184       : input  : LVTTL/LVCMOS      :         :           : N              
 VCC_INT                      : 185       : power  :                   : 2.5V    :           :                
 GND*                         : 186       :        :                   :         :           :                
 GND*                         : 187       :        :                   :         :           :                

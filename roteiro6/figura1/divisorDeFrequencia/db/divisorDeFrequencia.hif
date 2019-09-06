@@ -19,6 +19,36 @@ VHSM_ON
 -- Start VHDL Libraries --
 -- End VHDL Libraries --
 # entity
+contador
+# storage
+db|divisorDeFrequencia.(1).cnf
+db|divisorDeFrequencia.(1).cnf
+# case_insensitive
+# source_file
+..|contador|contador.bdf
+1be2ae3a099a2cbb4398e59d9c5310
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+contador:inst9
+contador:inst8
+contador:inst7
+contador:inst6
+contador:inst5
+contador:inst4
+contador:inst3
+contador:inst2
+contador:inst
+contador:inst10
+contador:inst11
+}
+# macro_sequence
+
+# end
+# entity
 divisorDeFrequencia
 # storage
 db|divisorDeFrequencia.(0).cnf
@@ -26,7 +56,7 @@ db|divisorDeFrequencia.(0).cnf
 # case_insensitive
 # source_file
 divisorDeFrequencia.bdf
-20282cf4a437abb46e95408b4edaad96
+542c0cc4f46e53c4bdb15295c57f99b
 26
 # internal_option {
 BLOCK_DESIGN_NAMING

@@ -1,0 +1,112 @@
+Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+2
+51
+OFF
+OFF
+OFF
+ON
+ON
+OFF
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+figura1
+# storage
+db|figura1.(0).cnf
+db|figura1.(0).cnf
+# case_insensitive
+# source_file
+figura1.bdf
+60ae22cf12072b3a4d1f9bf5938912
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+divisorDeFrequencia
+# storage
+db|figura1.(1).cnf
+db|figura1.(1).cnf
+# case_insensitive
+# source_file
+divisorDeFrequencia|divisorDeFrequencia.bdf
+542c0cc4f46e53c4bdb15295c57f99b
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+divisorDeFrequencia:inst
+}
+# macro_sequence
+
+# end
+# entity
+multiplexador
+# storage
+db|figura1.(2).cnf
+db|figura1.(2).cnf
+# case_insensitive
+# source_file
+multiplexador|multiplexador.bdf
+bd384f45b189269e8a5aee8a6011c0e6
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+multiplexador:inst1
+}
+# macro_sequence
+
+# end
+# entity
+contador
+# storage
+db|figura1.(3).cnf
+db|figura1.(3).cnf
+# case_insensitive
+# source_file
+contador|contador.bdf
+1be2ae3a099a2cbb4398e59d9c5310
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+divisorDeFrequencia:inst|contador:inst9
+divisorDeFrequencia:inst|contador:inst8
+divisorDeFrequencia:inst|contador:inst7
+divisorDeFrequencia:inst|contador:inst6
+divisorDeFrequencia:inst|contador:inst5
+divisorDeFrequencia:inst|contador:inst4
+divisorDeFrequencia:inst|contador:inst3
+divisorDeFrequencia:inst|contador:inst2
+divisorDeFrequencia:inst|contador:inst
+divisorDeFrequencia:inst|contador:inst10
+divisorDeFrequencia:inst|contador:inst11
+}
+# macro_sequence
+
+# end
+# complete
+

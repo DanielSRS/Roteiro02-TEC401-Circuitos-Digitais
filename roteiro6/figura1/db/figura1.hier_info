@@ -1,0 +1,253 @@
+|figura1
+Oscilador => divisorDeFrequencia:inst.Oscilador
+Limpar => divisorDeFrequencia:inst.Limpar
+DISP0a => multiplexador:inst1.Ea1
+DISP0b => multiplexador:inst1.Eb1
+DISP0c => multiplexador:inst1.Ec1
+DISP0d => multiplexador:inst1.Ed1
+DISP1a => multiplexador:inst1.Ea2
+DISP1b => multiplexador:inst1.Eb2
+DISP1c => multiplexador:inst1.Ec2
+DISP1d => multiplexador:inst1.Ed2
+DISP2a => multiplexador:inst1.Ea3
+DISP2b => multiplexador:inst1.Eb3
+DISP2c => multiplexador:inst1.Ec3
+DISP2d => multiplexador:inst1.Ed3
+DISP3a => multiplexador:inst1.Ea4
+DISP3b => multiplexador:inst1.Eb4
+DISP3c => multiplexador:inst1.Ec4
+DISP3d => multiplexador:inst1.Ed4
+
+
+|figura1|divisorDeFrequencia:inst
+CLKD <= contador:inst9.Q0
+Oscilador => contador:inst.CLK
+Oscilador => contador:inst2.CLK
+Oscilador => contador:inst3.CLK
+Oscilador => contador:inst4.CLK
+Oscilador => contador:inst5.CLK
+Oscilador => contador:inst6.CLK
+Oscilador => contador:inst7.CLK
+Oscilador => contador:inst8.CLK
+Oscilador => contador:inst9.CLK
+Oscilador => contador:inst10.CLK
+Oscilador => contador:inst11.CLK
+Limpar => contador:inst.CLR
+Limpar => contador:inst2.CLR
+Limpar => contador:inst3.CLR
+Limpar => contador:inst4.CLR
+Limpar => contador:inst5.CLR
+Limpar => contador:inst6.CLR
+Limpar => contador:inst7.CLR
+Limpar => contador:inst8.CLR
+Limpar => contador:inst9.CLR
+Limpar => contador:inst10.CLR
+Limpar => contador:inst11.CLR
+
+
+|figura1|divisorDeFrequencia:inst|contador:inst9
+Q0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLR => inst5.ACLR
+CE => inst~1.IN0
+CE => inst~0.IN1
+CE => inst4.IN0
+CE => inst7.IN1
+CLK => inst.CLK
+CLK => inst5.CLK
+Q1 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+CEO <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+TC <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|figura1|divisorDeFrequencia:inst|contador:inst8
+Q0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLR => inst5.ACLR
+CE => inst~1.IN0
+CE => inst~0.IN1
+CE => inst4.IN0
+CE => inst7.IN1
+CLK => inst.CLK
+CLK => inst5.CLK
+Q1 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+CEO <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+TC <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|figura1|divisorDeFrequencia:inst|contador:inst7
+Q0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLR => inst5.ACLR
+CE => inst~1.IN0
+CE => inst~0.IN1
+CE => inst4.IN0
+CE => inst7.IN1
+CLK => inst.CLK
+CLK => inst5.CLK
+Q1 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+CEO <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+TC <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|figura1|divisorDeFrequencia:inst|contador:inst6
+Q0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLR => inst5.ACLR
+CE => inst~1.IN0
+CE => inst~0.IN1
+CE => inst4.IN0
+CE => inst7.IN1
+CLK => inst.CLK
+CLK => inst5.CLK
+Q1 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+CEO <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+TC <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|figura1|divisorDeFrequencia:inst|contador:inst5
+Q0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLR => inst5.ACLR
+CE => inst~1.IN0
+CE => inst~0.IN1
+CE => inst4.IN0
+CE => inst7.IN1
+CLK => inst.CLK
+CLK => inst5.CLK
+Q1 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+CEO <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+TC <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|figura1|divisorDeFrequencia:inst|contador:inst4
+Q0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLR => inst5.ACLR
+CE => inst~1.IN0
+CE => inst~0.IN1
+CE => inst4.IN0
+CE => inst7.IN1
+CLK => inst.CLK
+CLK => inst5.CLK
+Q1 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+CEO <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+TC <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|figura1|divisorDeFrequencia:inst|contador:inst3
+Q0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLR => inst5.ACLR
+CE => inst~1.IN0
+CE => inst~0.IN1
+CE => inst4.IN0
+CE => inst7.IN1
+CLK => inst.CLK
+CLK => inst5.CLK
+Q1 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+CEO <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+TC <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|figura1|divisorDeFrequencia:inst|contador:inst2
+Q0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLR => inst5.ACLR
+CE => inst~1.IN0
+CE => inst~0.IN1
+CE => inst4.IN0
+CE => inst7.IN1
+CLK => inst.CLK
+CLK => inst5.CLK
+Q1 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+CEO <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+TC <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|figura1|divisorDeFrequencia:inst|contador:inst
+Q0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLR => inst5.ACLR
+CE => inst~1.IN0
+CE => inst~0.IN1
+CE => inst4.IN0
+CE => inst7.IN1
+CLK => inst.CLK
+CLK => inst5.CLK
+Q1 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+CEO <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+TC <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|figura1|divisorDeFrequencia:inst|contador:inst10
+Q0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLR => inst5.ACLR
+CE => inst~1.IN0
+CE => inst~0.IN1
+CE => inst4.IN0
+CE => inst7.IN1
+CLK => inst.CLK
+CLK => inst5.CLK
+Q1 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+CEO <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+TC <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|figura1|divisorDeFrequencia:inst|contador:inst11
+Q0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLR => inst5.ACLR
+CE => inst~1.IN0
+CE => inst~0.IN1
+CE => inst4.IN0
+CE => inst7.IN1
+CLK => inst.CLK
+CLK => inst5.CLK
+Q1 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+CEO <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+TC <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|figura1|multiplexador:inst1
+A <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+Ea1 => inst.IN0
+S1 => inst12.IN0
+S1 => inst4.IN1
+S1 => inst5.IN2
+S1 => inst8.IN1
+S1 => inst9.IN2
+S1 => inst16.IN1
+S1 => inst17.IN2
+S1 => inst21.IN1
+S1 => inst22.IN2
+S0 => inst13.IN0
+S0 => inst5.IN1
+S0 => inst3.IN2
+S0 => inst9.IN1
+S0 => inst7.IN2
+S0 => inst17.IN1
+S0 => inst11.IN2
+S0 => inst22.IN1
+S0 => inst20.IN2
+Ea3 => inst4.IN0
+Ea4 => inst5.IN0
+Ea2 => inst3.IN0
+B <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+Eb1 => inst14.IN0
+Eb3 => inst8.IN0
+Eb4 => inst9.IN0
+Eb2 => inst7.IN0
+C <= inst18.DB_MAX_OUTPUT_PORT_TYPE
+Ec1 => inst15.IN0
+Ec3 => inst16.IN0
+Ec4 => inst17.IN0
+Ec2 => inst11.IN0
+D <= inst23.DB_MAX_OUTPUT_PORT_TYPE
+Ed1 => inst19.IN0
+Ed3 => inst21.IN0
+Ed4 => inst22.IN0
+Ed2 => inst20.IN0
+
+

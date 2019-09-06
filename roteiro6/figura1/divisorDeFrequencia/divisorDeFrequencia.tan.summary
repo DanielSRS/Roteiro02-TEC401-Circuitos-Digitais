@@ -5,21 +5,21 @@ Timing Analyzer Summary
 Type           : Worst-case tco
 Slack          : N/A
 Required Time  : None
-Actual Time    : 61.900 ns
-From           : inst16
-To             : CLKdividido
-From Clock     : CLK
+Actual Time    : 12.300 ns
+From           : contador:inst9|inst
+To             : CLKD
+From Clock     : Oscilador
 To Clock       : --
 Failed Paths   : 0
 
-Type           : Clock Setup: 'CLK'
+Type           : Clock Setup: 'Oscilador'
 Slack          : N/A
 Required Time  : None
-Actual Time    : Restricted to 200.00 MHz ( period = 5.000 ns )
-From           : inst
-To             : inst
-From Clock     : CLK
-To Clock       : CLK
+Actual Time    : 68.03 MHz ( period = 14.700 ns )
+From           : contador:inst2|inst5
+To             : contador:inst8|inst
+From Clock     : Oscilador
+To Clock       : Oscilador
 Failed Paths   : 0
 
 Type           : Total number of failed paths

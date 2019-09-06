@@ -867,10 +867,6 @@ applicable agreement for further details.
 	(pt 152 296)
 )
 (connector
-	(pt 672 296)
-	(pt 672 224)
-)
-(connector
 	(pt 672 224)
 	(pt 688 224)
 )
@@ -982,7 +978,20 @@ applicable agreement for further details.
 	(pt 888 152)
 	(pt 952 152)
 )
+(connector
+	(pt 688 208)
+	(pt 672 208)
+)
+(connector
+	(pt 672 208)
+	(pt 672 224)
+)
+(connector
+	(pt 672 224)
+	(pt 672 296)
+)
 (junction (pt 464 296))
 (junction (pt 256 296))
 (junction (pt 672 296))
 (junction (pt 936 184))
+(junction (pt 672 224))

@@ -1,5 +1,5 @@
 Assembler report for divisorDeFrequencia
-Fri Aug 09 03:29:46 2019
+Fri Sep 06 11:04:41 2019
 Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
 
 
@@ -10,8 +10,8 @@ Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: C:/Users/danie/Documents/calculadora_binaria/componentes/divisorDeFrequencia/divisorDeFrequencia.sof
-  6. Assembler Device Options: C:/Users/danie/Documents/calculadora_binaria/componentes/divisorDeFrequencia/divisorDeFrequencia.pof
+  5. Assembler Device Options: C:/Users/danie/Documents/roteiros-TEC401-Circuitos-Digitais/roteiro6/figura1/divisorDeFrequencia/divisorDeFrequencia.sof
+  6. Assembler Device Options: C:/Users/danie/Documents/roteiros-TEC401-Circuitos-Digitais/roteiro6/figura1/divisorDeFrequencia/divisorDeFrequencia.pof
   7. Assembler Messages
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Fri Aug 09 03:29:46 2019 ;
+; Assembler Status      ; Successful - Fri Sep 06 11:04:41 2019 ;
 ; Revision Name         ; divisorDeFrequencia                   ;
 ; Top-level Entity Name ; divisorDeFrequencia                   ;
 ; Family                ; ACEX1K                                ;
@@ -77,37 +77,37 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------+----------+---------------+
 
 
-+------------------------------------------------------------------------------------------------------+
-; Assembler Generated Files                                                                            ;
-+------------------------------------------------------------------------------------------------------+
-; File Name                                                                                            ;
-+------------------------------------------------------------------------------------------------------+
-; C:/Users/danie/Documents/calculadora_binaria/componentes/divisorDeFrequencia/divisorDeFrequencia.sof ;
-; C:/Users/danie/Documents/calculadora_binaria/componentes/divisorDeFrequencia/divisorDeFrequencia.pof ;
-+------------------------------------------------------------------------------------------------------+
++--------------------------------------------------------------------------------------------------------------------------+
+; Assembler Generated Files                                                                                                ;
++--------------------------------------------------------------------------------------------------------------------------+
+; File Name                                                                                                                ;
++--------------------------------------------------------------------------------------------------------------------------+
+; C:/Users/danie/Documents/roteiros-TEC401-Circuitos-Digitais/roteiro6/figura1/divisorDeFrequencia/divisorDeFrequencia.sof ;
+; C:/Users/danie/Documents/roteiros-TEC401-Circuitos-Digitais/roteiro6/figura1/divisorDeFrequencia/divisorDeFrequencia.pof ;
++--------------------------------------------------------------------------------------------------------------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------+
-; Assembler Device Options: C:/Users/danie/Documents/calculadora_binaria/componentes/divisorDeFrequencia/divisorDeFrequencia.sof ;
-+----------------+---------------------------------------------------------------------------------------------------------------+
-; Option         ; Setting                                                                                                       ;
-+----------------+---------------------------------------------------------------------------------------------------------------+
-; Device         ; EP1K100QC208-3                                                                                                ;
-; JTAG usercode  ; 0x0000007F                                                                                                    ;
-; Checksum       ; 0x0001CEEA                                                                                                    ;
-+----------------+---------------------------------------------------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/Users/danie/Documents/roteiros-TEC401-Circuitos-Digitais/roteiro6/figura1/divisorDeFrequencia/divisorDeFrequencia.sof ;
++----------------+-----------------------------------------------------------------------------------------------------------------------------------+
+; Option         ; Setting                                                                                                                           ;
++----------------+-----------------------------------------------------------------------------------------------------------------------------------+
+; Device         ; EP1K100QC208-3                                                                                                                    ;
+; JTAG usercode  ; 0x0000007F                                                                                                                        ;
+; Checksum       ; 0x0001D47D                                                                                                                        ;
++----------------+-----------------------------------------------------------------------------------------------------------------------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------+
-; Assembler Device Options: C:/Users/danie/Documents/calculadora_binaria/componentes/divisorDeFrequencia/divisorDeFrequencia.pof ;
-+--------------------+-----------------------------------------------------------------------------------------------------------+
-; Option             ; Setting                                                                                                   ;
-+--------------------+-----------------------------------------------------------------------------------------------------------+
-; Device             ; EPC2                                                                                                      ;
-; JTAG usercode      ; 0x00000000                                                                                                ;
-; Checksum           ; 0x00BC6A30                                                                                                ;
-; Compression Ratio  ; 1                                                                                                         ;
-+--------------------+-----------------------------------------------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/Users/danie/Documents/roteiros-TEC401-Circuitos-Digitais/roteiro6/figura1/divisorDeFrequencia/divisorDeFrequencia.pof ;
++--------------------+-------------------------------------------------------------------------------------------------------------------------------+
+; Option             ; Setting                                                                                                                       ;
++--------------------+-------------------------------------------------------------------------------------------------------------------------------+
+; Device             ; EPC2                                                                                                                          ;
+; JTAG usercode      ; 0x00000000                                                                                                                    ;
+; Checksum           ; 0x00BC7A4A                                                                                                                    ;
+; Compression Ratio  ; 1                                                                                                                             ;
++--------------------+-------------------------------------------------------------------------------------------------------------------------------+
 
 
 +--------------------+
@@ -116,12 +116,12 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II Assembler
     Info: Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
-    Info: Processing started: Fri Aug 09 03:29:45 2019
+    Info: Processing started: Fri Sep 06 11:04:40 2019
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off divisorDeFrequencia -c divisorDeFrequencia
 Info: Assembler is generating device programming files
 Info: Quartus II Assembler was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 199 megabytes
-    Info: Processing ended: Fri Aug 09 03:29:46 2019
+    Info: Processing ended: Fri Sep 06 11:04:41 2019
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
