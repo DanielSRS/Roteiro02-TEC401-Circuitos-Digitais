@@ -1,5 +1,5 @@
 Classic Timing Analyzer report for circuitoFigura1_modificado
-Mon Aug 12 02:13:45 2019
+Fri Aug 23 13:42:24 2019
 Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
 
 
@@ -134,7 +134,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 Info: *******************************************************************
 Info: Running Quartus II Classic Timing Analyzer
     Info: Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
-    Info: Processing started: Mon Aug 12 02:13:45 2019
+    Info: Processing started: Fri Aug 23 13:42:23 2019
 Info: Command: quartus_tan --read_settings_files=off --write_settings_files=off circuitoFigura1_modificado -c circuitoFigura1_modificado
 Info: Started post-fitting delay annotation
 Info: Delay annotation completed successfully
@@ -147,9 +147,9 @@ Info: Longest tpd from source pin "DIP2" to destination pin "GPIO1" is 16.300 ns
     Info: Total cell delay = 14.000 ns ( 85.89 % )
     Info: Total interconnect delay = 2.300 ns ( 14.11 % )
 Info: Quartus II Classic Timing Analyzer was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 177 megabytes
-    Info: Processing ended: Mon Aug 12 02:13:46 2019
+    Info: Peak virtual memory: 182 megabytes
+    Info: Processing ended: Fri Aug 23 13:42:24 2019
     Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:00
+    Info: Total CPU time (on all processors): 00:00:01
 
 

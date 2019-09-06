@@ -46,3 +46,5 @@ set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id e
 set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
 set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
 set_global_assignment -name BDF_FILE circuitoFigura1_modificado.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE circuitoFigura1_modificado.vwf
+set_global_assignment -name SIMULATION_MODE FUNCTIONAL
