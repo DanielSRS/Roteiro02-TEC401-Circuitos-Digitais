@@ -1,0 +1,63 @@
+Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+2
+51
+OFF
+OFF
+OFF
+ON
+ON
+OFF
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+74382
+# storage
+db|ULA.(1).cnf
+db|ULA.(1).cnf
+# case_insensitive
+# source_file
+..|..|..|..|..|..|program files|quartus|quartus|libraries|others|maxplus2|74382.bdf
+6932acc840fa8aebccd434474fc58cb9
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+74382:inst
+74382:inst1
+}
+# macro_sequence
+
+# end
+# entity
+ULA
+# storage
+db|ULA.(0).cnf
+db|ULA.(0).cnf
+# case_insensitive
+# source_file
+ULA.bdf
+214ef5823979e31b782df4acc6a035d9
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+

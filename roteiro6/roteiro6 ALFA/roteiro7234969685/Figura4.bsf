@@ -1,0 +1,323 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 64 64 184 672)
+	(text "Figura4" (rect 5 0 47 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 592 25 604)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "C0" (rect 0 0 15 14)(font "Arial" (font_size 8)))
+		(text "C0" (rect 21 27 36 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "C1" (rect 0 0 15 14)(font "Arial" (font_size 8)))
+		(text "C1" (rect 21 43 36 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48)(line_width 1))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "RAO1" (rect 0 0 34 14)(font "Arial" (font_size 8)))
+		(text "RAO1" (rect 21 59 55 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64)(line_width 1))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "RBO1" (rect 0 0 33 14)(font "Arial" (font_size 8)))
+		(text "RBO1" (rect 21 187 54 201)(font "Arial" (font_size 8)))
+		(line (pt 0 192)(pt 16 192)(line_width 1))
+	)
+	(port
+		(pt 0 320)
+		(input)
+		(text "ROP1" (rect 0 0 31 14)(font "Arial" (font_size 8)))
+		(text "ROP1" (rect 21 315 52 329)(font "Arial" (font_size 8)))
+		(line (pt 0 320)(pt 16 320)(line_width 1))
+	)
+	(port
+		(pt 0 448)
+		(input)
+		(text "ROZ1" (rect 0 0 33 14)(font "Arial" (font_size 8)))
+		(text "ROZ1" (rect 21 443 54 457)(font "Arial" (font_size 8)))
+		(line (pt 0 448)(pt 16 448)(line_width 1))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "RAO2" (rect 0 0 34 14)(font "Arial" (font_size 8)))
+		(text "RAO2" (rect 21 75 55 89)(font "Arial" (font_size 8)))
+		(line (pt 0 80)(pt 16 80)(line_width 1))
+	)
+	(port
+		(pt 0 208)
+		(input)
+		(text "RBO2" (rect 0 0 33 14)(font "Arial" (font_size 8)))
+		(text "RBO2" (rect 21 203 54 217)(font "Arial" (font_size 8)))
+		(line (pt 0 208)(pt 16 208)(line_width 1))
+	)
+	(port
+		(pt 0 336)
+		(input)
+		(text "ROP2" (rect 0 0 31 14)(font "Arial" (font_size 8)))
+		(text "ROP2" (rect 21 331 52 345)(font "Arial" (font_size 8)))
+		(line (pt 0 336)(pt 16 336)(line_width 1))
+	)
+	(port
+		(pt 0 464)
+		(input)
+		(text "ROZ2" (rect 0 0 33 14)(font "Arial" (font_size 8)))
+		(text "ROZ2" (rect 21 459 54 473)(font "Arial" (font_size 8)))
+		(line (pt 0 464)(pt 16 464)(line_width 1))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "RAO3" (rect 0 0 34 14)(font "Arial" (font_size 8)))
+		(text "RAO3" (rect 21 91 55 105)(font "Arial" (font_size 8)))
+		(line (pt 0 96)(pt 16 96)(line_width 1))
+	)
+	(port
+		(pt 0 224)
+		(input)
+		(text "RBO3" (rect 0 0 33 14)(font "Arial" (font_size 8)))
+		(text "RBO3" (rect 21 219 54 233)(font "Arial" (font_size 8)))
+		(line (pt 0 224)(pt 16 224)(line_width 1))
+	)
+	(port
+		(pt 0 352)
+		(input)
+		(text "ROP3" (rect 0 0 31 14)(font "Arial" (font_size 8)))
+		(text "ROP3" (rect 21 347 52 361)(font "Arial" (font_size 8)))
+		(line (pt 0 352)(pt 16 352)(line_width 1))
+	)
+	(port
+		(pt 0 480)
+		(input)
+		(text "ROZ3" (rect 0 0 33 14)(font "Arial" (font_size 8)))
+		(text "ROZ3" (rect 21 475 54 489)(font "Arial" (font_size 8)))
+		(line (pt 0 480)(pt 16 480)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "RAO4" (rect 0 0 34 14)(font "Arial" (font_size 8)))
+		(text "RAO4" (rect 21 107 55 121)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 16 112)(line_width 1))
+	)
+	(port
+		(pt 0 240)
+		(input)
+		(text "RBO4" (rect 0 0 33 14)(font "Arial" (font_size 8)))
+		(text "RBO4" (rect 21 235 54 249)(font "Arial" (font_size 8)))
+		(line (pt 0 240)(pt 16 240)(line_width 1))
+	)
+	(port
+		(pt 0 368)
+		(input)
+		(text "ROP4" (rect 0 0 31 14)(font "Arial" (font_size 8)))
+		(text "ROP4" (rect 21 363 52 377)(font "Arial" (font_size 8)))
+		(line (pt 0 368)(pt 16 368)(line_width 1))
+	)
+	(port
+		(pt 0 496)
+		(input)
+		(text "ROZ4" (rect 0 0 33 14)(font "Arial" (font_size 8)))
+		(text "ROZ4" (rect 21 491 54 505)(font "Arial" (font_size 8)))
+		(line (pt 0 496)(pt 16 496)(line_width 1))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "RAO5" (rect 0 0 34 14)(font "Arial" (font_size 8)))
+		(text "RAO5" (rect 21 123 55 137)(font "Arial" (font_size 8)))
+		(line (pt 0 128)(pt 16 128)(line_width 1))
+	)
+	(port
+		(pt 0 256)
+		(input)
+		(text "RBO5" (rect 0 0 33 14)(font "Arial" (font_size 8)))
+		(text "RBO5" (rect 21 251 54 265)(font "Arial" (font_size 8)))
+		(line (pt 0 256)(pt 16 256)(line_width 1))
+	)
+	(port
+		(pt 0 384)
+		(input)
+		(text "ROP5" (rect 0 0 31 14)(font "Arial" (font_size 8)))
+		(text "ROP5" (rect 21 379 52 393)(font "Arial" (font_size 8)))
+		(line (pt 0 384)(pt 16 384)(line_width 1))
+	)
+	(port
+		(pt 0 512)
+		(input)
+		(text "ROZ5" (rect 0 0 33 14)(font "Arial" (font_size 8)))
+		(text "ROZ5" (rect 21 507 54 521)(font "Arial" (font_size 8)))
+		(line (pt 0 512)(pt 16 512)(line_width 1))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "RAO6" (rect 0 0 34 14)(font "Arial" (font_size 8)))
+		(text "RAO6" (rect 21 139 55 153)(font "Arial" (font_size 8)))
+		(line (pt 0 144)(pt 16 144)(line_width 1))
+	)
+	(port
+		(pt 0 272)
+		(input)
+		(text "RBO6" (rect 0 0 33 14)(font "Arial" (font_size 8)))
+		(text "RBO6" (rect 21 267 54 281)(font "Arial" (font_size 8)))
+		(line (pt 0 272)(pt 16 272)(line_width 1))
+	)
+	(port
+		(pt 0 400)
+		(input)
+		(text "ROP6" (rect 0 0 31 14)(font "Arial" (font_size 8)))
+		(text "ROP6" (rect 21 395 52 409)(font "Arial" (font_size 8)))
+		(line (pt 0 400)(pt 16 400)(line_width 1))
+	)
+	(port
+		(pt 0 528)
+		(input)
+		(text "ROZ6" (rect 0 0 33 14)(font "Arial" (font_size 8)))
+		(text "ROZ6" (rect 21 523 54 537)(font "Arial" (font_size 8)))
+		(line (pt 0 528)(pt 16 528)(line_width 1))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "RAO7" (rect 0 0 34 14)(font "Arial" (font_size 8)))
+		(text "RAO7" (rect 21 155 55 169)(font "Arial" (font_size 8)))
+		(line (pt 0 160)(pt 16 160)(line_width 1))
+	)
+	(port
+		(pt 0 288)
+		(input)
+		(text "RBO7" (rect 0 0 33 14)(font "Arial" (font_size 8)))
+		(text "RBO7" (rect 21 283 54 297)(font "Arial" (font_size 8)))
+		(line (pt 0 288)(pt 16 288)(line_width 1))
+	)
+	(port
+		(pt 0 416)
+		(input)
+		(text "ROP7" (rect 0 0 31 14)(font "Arial" (font_size 8)))
+		(text "ROP7" (rect 21 411 52 425)(font "Arial" (font_size 8)))
+		(line (pt 0 416)(pt 16 416)(line_width 1))
+	)
+	(port
+		(pt 0 544)
+		(input)
+		(text "ROZ7" (rect 0 0 33 14)(font "Arial" (font_size 8)))
+		(text "ROZ7" (rect 21 539 54 553)(font "Arial" (font_size 8)))
+		(line (pt 0 544)(pt 16 544)(line_width 1))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "RAO8" (rect 0 0 34 14)(font "Arial" (font_size 8)))
+		(text "RAO8" (rect 24 168 58 182)(font "Arial" (font_size 8)))
+		(line (pt 0 176)(pt 16 176)(line_width 1))
+	)
+	(port
+		(pt 0 304)
+		(input)
+		(text "RBO8" (rect 0 0 33 14)(font "Arial" (font_size 8)))
+		(text "RBO8" (rect 24 296 57 310)(font "Arial" (font_size 8)))
+		(line (pt 0 304)(pt 16 304)(line_width 1))
+	)
+	(port
+		(pt 0 432)
+		(input)
+		(text "ROP8" (rect 0 0 31 14)(font "Arial" (font_size 8)))
+		(text "ROP8" (rect 24 424 55 438)(font "Arial" (font_size 8)))
+		(line (pt 0 432)(pt 16 432)(line_width 1))
+	)
+	(port
+		(pt 0 560)
+		(input)
+		(text "ROZ8" (rect 0 0 33 14)(font "Arial" (font_size 8)))
+		(text "ROZ8" (rect 24 552 57 566)(font "Arial" (font_size 8)))
+		(line (pt 0 560)(pt 16 560)(line_width 1))
+	)
+	(port
+		(pt 120 32)
+		(output)
+		(text "LED1" (rect 0 0 29 14)(font "Arial" (font_size 8)))
+		(text "LED1" (rect 70 27 99 41)(font "Arial" (font_size 8)))
+		(line (pt 120 32)(pt 104 32)(line_width 1))
+	)
+	(port
+		(pt 120 48)
+		(output)
+		(text "LED2" (rect 0 0 29 14)(font "Arial" (font_size 8)))
+		(text "LED2" (rect 70 43 99 57)(font "Arial" (font_size 8)))
+		(line (pt 120 48)(pt 104 48)(line_width 1))
+	)
+	(port
+		(pt 120 64)
+		(output)
+		(text "LED3" (rect 0 0 29 14)(font "Arial" (font_size 8)))
+		(text "LED3" (rect 70 59 99 73)(font "Arial" (font_size 8)))
+		(line (pt 120 64)(pt 104 64)(line_width 1))
+	)
+	(port
+		(pt 120 80)
+		(output)
+		(text "LED4" (rect 0 0 29 14)(font "Arial" (font_size 8)))
+		(text "LED4" (rect 70 75 99 89)(font "Arial" (font_size 8)))
+		(line (pt 120 80)(pt 104 80)(line_width 1))
+	)
+	(port
+		(pt 120 96)
+		(output)
+		(text "LED5" (rect 0 0 29 14)(font "Arial" (font_size 8)))
+		(text "LED5" (rect 70 91 99 105)(font "Arial" (font_size 8)))
+		(line (pt 120 96)(pt 104 96)(line_width 1))
+	)
+	(port
+		(pt 120 112)
+		(output)
+		(text "LED6" (rect 0 0 29 14)(font "Arial" (font_size 8)))
+		(text "LED6" (rect 70 107 99 121)(font "Arial" (font_size 8)))
+		(line (pt 120 112)(pt 104 112)(line_width 1))
+	)
+	(port
+		(pt 120 128)
+		(output)
+		(text "LED7" (rect 0 0 29 14)(font "Arial" (font_size 8)))
+		(text "LED7" (rect 70 123 99 137)(font "Arial" (font_size 8)))
+		(line (pt 120 128)(pt 104 128)(line_width 1))
+	)
+	(port
+		(pt 120 144)
+		(output)
+		(text "LED8" (rect 0 0 29 14)(font "Arial" (font_size 8)))
+		(text "LED8" (rect 70 139 99 153)(font "Arial" (font_size 8)))
+		(line (pt 120 144)(pt 104 144)(line_width 1))
+	)
+	(drawing
+		(rectangle (rect 16 16 104 592)(line_width 1))
+	)
+)

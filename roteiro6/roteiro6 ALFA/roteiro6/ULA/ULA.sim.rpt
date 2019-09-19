@@ -1,0 +1,462 @@
+Simulator report for ULA
+Mon Sep 16 11:05:17 2019
+Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 1.0 us       ;
+; Simulation Netlist Size     ; 151 nodes    ;
+; Simulation Coverage         ;       0.00 % ;
+; Total Number of Transitions ; 0            ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; ACEX1K       ;
++-----------------------------+--------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                                 ;
++--------------------------------------------------------------------------------------------+-----------------------+---------------+
+; Option                                                                                     ; Setting               ; Default Value ;
++--------------------------------------------------------------------------------------------+-----------------------+---------------+
+; Simulation mode                                                                            ; Functional            ; Timing        ;
+; Start time                                                                                 ; 0 ns                  ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF                  ;               ;
+; Vector input source                                                                        ; Testes/ULA_Teste1.vwf ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On                    ; On            ;
+; Check outputs                                                                              ; Off                   ; Off           ;
+; Report simulation coverage                                                                 ; On                    ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On                    ; On            ;
+; Display missing 1-value coverage report                                                    ; On                    ; On            ;
+; Display missing 0-value coverage report                                                    ; On                    ; On            ;
+; Detect setup and hold time violations                                                      ; Off                   ; Off           ;
+; Detect glitches                                                                            ; Off                   ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off                   ; Off           ;
+; Generate Signal Activity File                                                              ; Off                   ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off                   ; Off           ;
+; Group bus channels in simulation results                                                   ; Off                   ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On                    ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE            ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off                   ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off                   ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto                  ; Auto          ;
++--------------------------------------------------------------------------------------------+-----------------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;       0.00 % ;
+; Total nodes checked                                 ; 151          ;
+; Total output ports checked                          ; 151          ;
+; Total output ports with complete 1/0-value coverage ; 0            ;
+; Total output ports with no 1/0-value coverage       ; 151          ;
+; Total output ports with no 1-value coverage         ; 151          ;
+; Total output ports with no 0-value coverage         ; 151          ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++-------------------------------------------------+
+; Complete 1/0-Value Coverage                     ;
++-----------+------------------+------------------+
+; Node Name ; Output Port Name ; Output Port Type ;
++-----------+------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++----------------------------------------------------------------+
+; Missing 1-Value Coverage                                       ;
++----------------------+----------------------+------------------+
+; Node Name            ; Output Port Name     ; Output Port Type ;
++----------------------+----------------------+------------------+
+; |ULA|F4              ; |ULA|F4              ; pin_out          ;
+; |ULA|B7              ; |ULA|B7              ; out              ;
+; |ULA|A7              ; |ULA|A7              ; out              ;
+; |ULA|B4              ; |ULA|B4              ; out              ;
+; |ULA|A4              ; |ULA|A4              ; out              ;
+; |ULA|B5              ; |ULA|B5              ; out              ;
+; |ULA|S2              ; |ULA|S2              ; out              ;
+; |ULA|S1              ; |ULA|S1              ; out              ;
+; |ULA|S0              ; |ULA|S0              ; out              ;
+; |ULA|A5              ; |ULA|A5              ; out              ;
+; |ULA|B6              ; |ULA|B6              ; out              ;
+; |ULA|A6              ; |ULA|A6              ; out              ;
+; |ULA|B3              ; |ULA|B3              ; out              ;
+; |ULA|A3              ; |ULA|A3              ; out              ;
+; |ULA|B0              ; |ULA|B0              ; out              ;
+; |ULA|A0              ; |ULA|A0              ; out              ;
+; |ULA|B1              ; |ULA|B1              ; out              ;
+; |ULA|A1              ; |ULA|A1              ; out              ;
+; |ULA|B2              ; |ULA|B2              ; out              ;
+; |ULA|A2              ; |ULA|A2              ; out              ;
+; |ULA|CIN             ; |ULA|CIN             ; out              ;
+; |ULA|F5              ; |ULA|F5              ; pin_out          ;
+; |ULA|F6              ; |ULA|F6              ; pin_out          ;
+; |ULA|F7              ; |ULA|F7              ; pin_out          ;
+; |ULA|F1              ; |ULA|F1              ; pin_out          ;
+; |ULA|F0              ; |ULA|F0              ; pin_out          ;
+; |ULA|F3              ; |ULA|F3              ; pin_out          ;
+; |ULA|F2              ; |ULA|F2              ; pin_out          ;
+; |ULA|74382:inst1|105 ; |ULA|74382:inst1|105 ; out0             ;
+; |ULA|74382:inst1|93  ; |ULA|74382:inst1|93  ; out0             ;
+; |ULA|74382:inst1|90  ; |ULA|74382:inst1|90  ; out0             ;
+; |ULA|74382:inst1|16  ; |ULA|74382:inst1|16  ; out0             ;
+; |ULA|74382:inst1|21  ; |ULA|74382:inst1|21  ; out0             ;
+; |ULA|74382:inst1|58  ; |ULA|74382:inst1|58  ; out0             ;
+; |ULA|74382:inst1|61  ; |ULA|74382:inst1|61  ; out0             ;
+; |ULA|74382:inst1|22  ; |ULA|74382:inst1|22  ; out0             ;
+; |ULA|74382:inst1|56  ; |ULA|74382:inst1|56  ; out0             ;
+; |ULA|74382:inst1|60  ; |ULA|74382:inst1|60  ; out0             ;
+; |ULA|74382:inst1|23  ; |ULA|74382:inst1|23  ; out0             ;
+; |ULA|74382:inst1|39  ; |ULA|74382:inst1|39  ; out0             ;
+; |ULA|74382:inst1|34  ; |ULA|74382:inst1|34  ; out0             ;
+; |ULA|74382:inst1|33  ; |ULA|74382:inst1|33  ; out0             ;
+; |ULA|74382:inst1|32  ; |ULA|74382:inst1|32  ; out0             ;
+; |ULA|74382:inst1|42  ; |ULA|74382:inst1|42  ; out0             ;
+; |ULA|74382:inst1|47  ; |ULA|74382:inst1|47  ; out0             ;
+; |ULA|74382:inst1|48  ; |ULA|74382:inst1|48  ; out0             ;
+; |ULA|74382:inst1|49  ; |ULA|74382:inst1|49  ; out0             ;
+; |ULA|74382:inst1|13  ; |ULA|74382:inst1|13  ; out0             ;
+; |ULA|74382:inst1|8   ; |ULA|74382:inst1|8   ; out0             ;
+; |ULA|74382:inst1|7   ; |ULA|74382:inst1|7   ; out0             ;
+; |ULA|74382:inst1|6   ; |ULA|74382:inst1|6   ; out0             ;
+; |ULA|74382:inst1|14  ; |ULA|74382:inst1|14  ; out0             ;
+; |ULA|74382:inst1|9   ; |ULA|74382:inst1|9   ; out0             ;
+; |ULA|74382:inst1|64  ; |ULA|74382:inst1|64  ; out0             ;
+; |ULA|74382:inst1|63  ; |ULA|74382:inst1|63  ; out0             ;
+; |ULA|74382:inst1|10  ; |ULA|74382:inst1|10  ; out0             ;
+; |ULA|74382:inst1|11  ; |ULA|74382:inst1|11  ; out0             ;
+; |ULA|74382:inst1|12  ; |ULA|74382:inst1|12  ; out0             ;
+; |ULA|74382:inst1|89  ; |ULA|74382:inst1|89  ; out0             ;
+; |ULA|74382:inst1|15  ; |ULA|74382:inst1|15  ; out0             ;
+; |ULA|74382:inst1|20  ; |ULA|74382:inst1|20  ; out0             ;
+; |ULA|74382:inst1|19  ; |ULA|74382:inst1|19  ; out0             ;
+; |ULA|74382:inst1|18  ; |ULA|74382:inst1|18  ; out0             ;
+; |ULA|74382:inst1|17  ; |ULA|74382:inst1|17  ; out0             ;
+; |ULA|74382:inst1|91  ; |ULA|74382:inst1|91  ; out0             ;
+; |ULA|74382:inst1|40  ; |ULA|74382:inst1|40  ; out0             ;
+; |ULA|74382:inst1|35  ; |ULA|74382:inst1|35  ; out0             ;
+; |ULA|74382:inst1|36  ; |ULA|74382:inst1|36  ; out0             ;
+; |ULA|74382:inst1|37  ; |ULA|74382:inst1|37  ; out0             ;
+; |ULA|74382:inst1|38  ; |ULA|74382:inst1|38  ; out0             ;
+; |ULA|74382:inst1|92  ; |ULA|74382:inst1|92  ; out0             ;
+; |ULA|74382:inst1|41  ; |ULA|74382:inst1|41  ; out0             ;
+; |ULA|74382:inst1|46  ; |ULA|74382:inst1|46  ; out0             ;
+; |ULA|74382:inst1|45  ; |ULA|74382:inst1|45  ; out0             ;
+; |ULA|74382:inst1|44  ; |ULA|74382:inst1|44  ; out0             ;
+; |ULA|74382:inst1|43  ; |ULA|74382:inst1|43  ; out0             ;
+; |ULA|74382:inst1|103 ; |ULA|74382:inst1|103 ; out0             ;
+; |ULA|74382:inst1|81  ; |ULA|74382:inst1|81  ; out0             ;
+; |ULA|74382:inst1|85  ; |ULA|74382:inst1|85  ; out0             ;
+; |ULA|74382:inst1|65  ; |ULA|74382:inst1|65  ; out0             ;
+; |ULA|74382:inst1|84  ; |ULA|74382:inst1|84  ; out0             ;
+; |ULA|74382:inst1|83  ; |ULA|74382:inst1|83  ; out0             ;
+; |ULA|74382:inst1|82  ; |ULA|74382:inst1|82  ; out0             ;
+; |ULA|74382:inst1|80  ; |ULA|74382:inst1|80  ; out0             ;
+; |ULA|74382:inst1|69  ; |ULA|74382:inst1|69  ; out0             ;
+; |ULA|74382:inst1|70  ; |ULA|74382:inst1|70  ; out0             ;
+; |ULA|74382:inst1|71  ; |ULA|74382:inst1|71  ; out0             ;
+; |ULA|74382:inst1|72  ; |ULA|74382:inst1|72  ; out0             ;
+; |ULA|74382:inst1|73  ; |ULA|74382:inst1|73  ; out0             ;
+; |ULA|74382:inst1|74  ; |ULA|74382:inst1|74  ; out0             ;
+; |ULA|74382:inst1|75  ; |ULA|74382:inst1|75  ; out0             ;
+; |ULA|74382:inst1|76  ; |ULA|74382:inst1|76  ; out0             ;
+; |ULA|74382:inst1|77  ; |ULA|74382:inst1|77  ; out0             ;
+; |ULA|74382:inst1|67  ; |ULA|74382:inst1|67  ; out0             ;
+; |ULA|74382:inst1|66  ; |ULA|74382:inst1|66  ; out0             ;
+; |ULA|74382:inst|16   ; |ULA|74382:inst|16   ; out0             ;
+; |ULA|74382:inst|21   ; |ULA|74382:inst|21   ; out0             ;
+; |ULA|74382:inst|58   ; |ULA|74382:inst|58   ; out0             ;
+; |ULA|74382:inst|61   ; |ULA|74382:inst|61   ; out0             ;
+; |ULA|74382:inst|22   ; |ULA|74382:inst|22   ; out0             ;
+; |ULA|74382:inst|56   ; |ULA|74382:inst|56   ; out0             ;
+; |ULA|74382:inst|60   ; |ULA|74382:inst|60   ; out0             ;
+; |ULA|74382:inst|23   ; |ULA|74382:inst|23   ; out0             ;
+; |ULA|74382:inst|39   ; |ULA|74382:inst|39   ; out0             ;
+; |ULA|74382:inst|34   ; |ULA|74382:inst|34   ; out0             ;
+; |ULA|74382:inst|33   ; |ULA|74382:inst|33   ; out0             ;
+; |ULA|74382:inst|32   ; |ULA|74382:inst|32   ; out0             ;
+; |ULA|74382:inst|13   ; |ULA|74382:inst|13   ; out0             ;
+; |ULA|74382:inst|8    ; |ULA|74382:inst|8    ; out0             ;
+; |ULA|74382:inst|7    ; |ULA|74382:inst|7    ; out0             ;
+; |ULA|74382:inst|6    ; |ULA|74382:inst|6    ; out0             ;
+; |ULA|74382:inst|14   ; |ULA|74382:inst|14   ; out0             ;
+; |ULA|74382:inst|9    ; |ULA|74382:inst|9    ; out0             ;
+; |ULA|74382:inst|64   ; |ULA|74382:inst|64   ; out0             ;
+; |ULA|74382:inst|63   ; |ULA|74382:inst|63   ; out0             ;
+; |ULA|74382:inst|10   ; |ULA|74382:inst|10   ; out0             ;
+; |ULA|74382:inst|11   ; |ULA|74382:inst|11   ; out0             ;
+; |ULA|74382:inst|12   ; |ULA|74382:inst|12   ; out0             ;
+; |ULA|74382:inst|15   ; |ULA|74382:inst|15   ; out0             ;
+; |ULA|74382:inst|20   ; |ULA|74382:inst|20   ; out0             ;
+; |ULA|74382:inst|19   ; |ULA|74382:inst|19   ; out0             ;
+; |ULA|74382:inst|18   ; |ULA|74382:inst|18   ; out0             ;
+; |ULA|74382:inst|17   ; |ULA|74382:inst|17   ; out0             ;
+; |ULA|74382:inst|40   ; |ULA|74382:inst|40   ; out0             ;
+; |ULA|74382:inst|35   ; |ULA|74382:inst|35   ; out0             ;
+; |ULA|74382:inst|36   ; |ULA|74382:inst|36   ; out0             ;
+; |ULA|74382:inst|37   ; |ULA|74382:inst|37   ; out0             ;
+; |ULA|74382:inst|38   ; |ULA|74382:inst|38   ; out0             ;
+; |ULA|74382:inst|41   ; |ULA|74382:inst|41   ; out0             ;
+; |ULA|74382:inst|46   ; |ULA|74382:inst|46   ; out0             ;
+; |ULA|74382:inst|45   ; |ULA|74382:inst|45   ; out0             ;
+; |ULA|74382:inst|44   ; |ULA|74382:inst|44   ; out0             ;
+; |ULA|74382:inst|43   ; |ULA|74382:inst|43   ; out0             ;
+; |ULA|74382:inst|81   ; |ULA|74382:inst|81   ; out0             ;
+; |ULA|74382:inst|85   ; |ULA|74382:inst|85   ; out0             ;
+; |ULA|74382:inst|65   ; |ULA|74382:inst|65   ; out0             ;
+; |ULA|74382:inst|84   ; |ULA|74382:inst|84   ; out0             ;
+; |ULA|74382:inst|83   ; |ULA|74382:inst|83   ; out0             ;
+; |ULA|74382:inst|82   ; |ULA|74382:inst|82   ; out0             ;
+; |ULA|74382:inst|80   ; |ULA|74382:inst|80   ; out0             ;
+; |ULA|74382:inst|69   ; |ULA|74382:inst|69   ; out0             ;
+; |ULA|74382:inst|70   ; |ULA|74382:inst|70   ; out0             ;
+; |ULA|74382:inst|71   ; |ULA|74382:inst|71   ; out0             ;
+; |ULA|74382:inst|72   ; |ULA|74382:inst|72   ; out0             ;
+; |ULA|74382:inst|73   ; |ULA|74382:inst|73   ; out0             ;
+; |ULA|74382:inst|74   ; |ULA|74382:inst|74   ; out0             ;
+; |ULA|74382:inst|75   ; |ULA|74382:inst|75   ; out0             ;
+; |ULA|74382:inst|76   ; |ULA|74382:inst|76   ; out0             ;
+; |ULA|74382:inst|77   ; |ULA|74382:inst|77   ; out0             ;
+; |ULA|74382:inst|67   ; |ULA|74382:inst|67   ; out0             ;
+; |ULA|74382:inst|66   ; |ULA|74382:inst|66   ; out0             ;
++----------------------+----------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++----------------------------------------------------------------+
+; Missing 0-Value Coverage                                       ;
++----------------------+----------------------+------------------+
+; Node Name            ; Output Port Name     ; Output Port Type ;
++----------------------+----------------------+------------------+
+; |ULA|F4              ; |ULA|F4              ; pin_out          ;
+; |ULA|B7              ; |ULA|B7              ; out              ;
+; |ULA|A7              ; |ULA|A7              ; out              ;
+; |ULA|B4              ; |ULA|B4              ; out              ;
+; |ULA|A4              ; |ULA|A4              ; out              ;
+; |ULA|B5              ; |ULA|B5              ; out              ;
+; |ULA|S2              ; |ULA|S2              ; out              ;
+; |ULA|S1              ; |ULA|S1              ; out              ;
+; |ULA|S0              ; |ULA|S0              ; out              ;
+; |ULA|A5              ; |ULA|A5              ; out              ;
+; |ULA|B6              ; |ULA|B6              ; out              ;
+; |ULA|A6              ; |ULA|A6              ; out              ;
+; |ULA|B3              ; |ULA|B3              ; out              ;
+; |ULA|A3              ; |ULA|A3              ; out              ;
+; |ULA|B0              ; |ULA|B0              ; out              ;
+; |ULA|A0              ; |ULA|A0              ; out              ;
+; |ULA|B1              ; |ULA|B1              ; out              ;
+; |ULA|A1              ; |ULA|A1              ; out              ;
+; |ULA|B2              ; |ULA|B2              ; out              ;
+; |ULA|A2              ; |ULA|A2              ; out              ;
+; |ULA|CIN             ; |ULA|CIN             ; out              ;
+; |ULA|F5              ; |ULA|F5              ; pin_out          ;
+; |ULA|F6              ; |ULA|F6              ; pin_out          ;
+; |ULA|F7              ; |ULA|F7              ; pin_out          ;
+; |ULA|F1              ; |ULA|F1              ; pin_out          ;
+; |ULA|F0              ; |ULA|F0              ; pin_out          ;
+; |ULA|F3              ; |ULA|F3              ; pin_out          ;
+; |ULA|F2              ; |ULA|F2              ; pin_out          ;
+; |ULA|74382:inst1|105 ; |ULA|74382:inst1|105 ; out0             ;
+; |ULA|74382:inst1|93  ; |ULA|74382:inst1|93  ; out0             ;
+; |ULA|74382:inst1|90  ; |ULA|74382:inst1|90  ; out0             ;
+; |ULA|74382:inst1|16  ; |ULA|74382:inst1|16  ; out0             ;
+; |ULA|74382:inst1|21  ; |ULA|74382:inst1|21  ; out0             ;
+; |ULA|74382:inst1|58  ; |ULA|74382:inst1|58  ; out0             ;
+; |ULA|74382:inst1|61  ; |ULA|74382:inst1|61  ; out0             ;
+; |ULA|74382:inst1|22  ; |ULA|74382:inst1|22  ; out0             ;
+; |ULA|74382:inst1|56  ; |ULA|74382:inst1|56  ; out0             ;
+; |ULA|74382:inst1|60  ; |ULA|74382:inst1|60  ; out0             ;
+; |ULA|74382:inst1|23  ; |ULA|74382:inst1|23  ; out0             ;
+; |ULA|74382:inst1|39  ; |ULA|74382:inst1|39  ; out0             ;
+; |ULA|74382:inst1|34  ; |ULA|74382:inst1|34  ; out0             ;
+; |ULA|74382:inst1|33  ; |ULA|74382:inst1|33  ; out0             ;
+; |ULA|74382:inst1|32  ; |ULA|74382:inst1|32  ; out0             ;
+; |ULA|74382:inst1|42  ; |ULA|74382:inst1|42  ; out0             ;
+; |ULA|74382:inst1|47  ; |ULA|74382:inst1|47  ; out0             ;
+; |ULA|74382:inst1|48  ; |ULA|74382:inst1|48  ; out0             ;
+; |ULA|74382:inst1|49  ; |ULA|74382:inst1|49  ; out0             ;
+; |ULA|74382:inst1|13  ; |ULA|74382:inst1|13  ; out0             ;
+; |ULA|74382:inst1|8   ; |ULA|74382:inst1|8   ; out0             ;
+; |ULA|74382:inst1|7   ; |ULA|74382:inst1|7   ; out0             ;
+; |ULA|74382:inst1|6   ; |ULA|74382:inst1|6   ; out0             ;
+; |ULA|74382:inst1|14  ; |ULA|74382:inst1|14  ; out0             ;
+; |ULA|74382:inst1|9   ; |ULA|74382:inst1|9   ; out0             ;
+; |ULA|74382:inst1|64  ; |ULA|74382:inst1|64  ; out0             ;
+; |ULA|74382:inst1|63  ; |ULA|74382:inst1|63  ; out0             ;
+; |ULA|74382:inst1|10  ; |ULA|74382:inst1|10  ; out0             ;
+; |ULA|74382:inst1|11  ; |ULA|74382:inst1|11  ; out0             ;
+; |ULA|74382:inst1|12  ; |ULA|74382:inst1|12  ; out0             ;
+; |ULA|74382:inst1|89  ; |ULA|74382:inst1|89  ; out0             ;
+; |ULA|74382:inst1|15  ; |ULA|74382:inst1|15  ; out0             ;
+; |ULA|74382:inst1|20  ; |ULA|74382:inst1|20  ; out0             ;
+; |ULA|74382:inst1|19  ; |ULA|74382:inst1|19  ; out0             ;
+; |ULA|74382:inst1|18  ; |ULA|74382:inst1|18  ; out0             ;
+; |ULA|74382:inst1|17  ; |ULA|74382:inst1|17  ; out0             ;
+; |ULA|74382:inst1|91  ; |ULA|74382:inst1|91  ; out0             ;
+; |ULA|74382:inst1|40  ; |ULA|74382:inst1|40  ; out0             ;
+; |ULA|74382:inst1|35  ; |ULA|74382:inst1|35  ; out0             ;
+; |ULA|74382:inst1|36  ; |ULA|74382:inst1|36  ; out0             ;
+; |ULA|74382:inst1|37  ; |ULA|74382:inst1|37  ; out0             ;
+; |ULA|74382:inst1|38  ; |ULA|74382:inst1|38  ; out0             ;
+; |ULA|74382:inst1|92  ; |ULA|74382:inst1|92  ; out0             ;
+; |ULA|74382:inst1|41  ; |ULA|74382:inst1|41  ; out0             ;
+; |ULA|74382:inst1|46  ; |ULA|74382:inst1|46  ; out0             ;
+; |ULA|74382:inst1|45  ; |ULA|74382:inst1|45  ; out0             ;
+; |ULA|74382:inst1|44  ; |ULA|74382:inst1|44  ; out0             ;
+; |ULA|74382:inst1|43  ; |ULA|74382:inst1|43  ; out0             ;
+; |ULA|74382:inst1|103 ; |ULA|74382:inst1|103 ; out0             ;
+; |ULA|74382:inst1|81  ; |ULA|74382:inst1|81  ; out0             ;
+; |ULA|74382:inst1|85  ; |ULA|74382:inst1|85  ; out0             ;
+; |ULA|74382:inst1|65  ; |ULA|74382:inst1|65  ; out0             ;
+; |ULA|74382:inst1|84  ; |ULA|74382:inst1|84  ; out0             ;
+; |ULA|74382:inst1|83  ; |ULA|74382:inst1|83  ; out0             ;
+; |ULA|74382:inst1|82  ; |ULA|74382:inst1|82  ; out0             ;
+; |ULA|74382:inst1|80  ; |ULA|74382:inst1|80  ; out0             ;
+; |ULA|74382:inst1|69  ; |ULA|74382:inst1|69  ; out0             ;
+; |ULA|74382:inst1|70  ; |ULA|74382:inst1|70  ; out0             ;
+; |ULA|74382:inst1|71  ; |ULA|74382:inst1|71  ; out0             ;
+; |ULA|74382:inst1|72  ; |ULA|74382:inst1|72  ; out0             ;
+; |ULA|74382:inst1|73  ; |ULA|74382:inst1|73  ; out0             ;
+; |ULA|74382:inst1|74  ; |ULA|74382:inst1|74  ; out0             ;
+; |ULA|74382:inst1|75  ; |ULA|74382:inst1|75  ; out0             ;
+; |ULA|74382:inst1|76  ; |ULA|74382:inst1|76  ; out0             ;
+; |ULA|74382:inst1|77  ; |ULA|74382:inst1|77  ; out0             ;
+; |ULA|74382:inst1|67  ; |ULA|74382:inst1|67  ; out0             ;
+; |ULA|74382:inst1|66  ; |ULA|74382:inst1|66  ; out0             ;
+; |ULA|74382:inst|16   ; |ULA|74382:inst|16   ; out0             ;
+; |ULA|74382:inst|21   ; |ULA|74382:inst|21   ; out0             ;
+; |ULA|74382:inst|58   ; |ULA|74382:inst|58   ; out0             ;
+; |ULA|74382:inst|61   ; |ULA|74382:inst|61   ; out0             ;
+; |ULA|74382:inst|22   ; |ULA|74382:inst|22   ; out0             ;
+; |ULA|74382:inst|56   ; |ULA|74382:inst|56   ; out0             ;
+; |ULA|74382:inst|60   ; |ULA|74382:inst|60   ; out0             ;
+; |ULA|74382:inst|23   ; |ULA|74382:inst|23   ; out0             ;
+; |ULA|74382:inst|39   ; |ULA|74382:inst|39   ; out0             ;
+; |ULA|74382:inst|34   ; |ULA|74382:inst|34   ; out0             ;
+; |ULA|74382:inst|33   ; |ULA|74382:inst|33   ; out0             ;
+; |ULA|74382:inst|32   ; |ULA|74382:inst|32   ; out0             ;
+; |ULA|74382:inst|13   ; |ULA|74382:inst|13   ; out0             ;
+; |ULA|74382:inst|8    ; |ULA|74382:inst|8    ; out0             ;
+; |ULA|74382:inst|7    ; |ULA|74382:inst|7    ; out0             ;
+; |ULA|74382:inst|6    ; |ULA|74382:inst|6    ; out0             ;
+; |ULA|74382:inst|14   ; |ULA|74382:inst|14   ; out0             ;
+; |ULA|74382:inst|9    ; |ULA|74382:inst|9    ; out0             ;
+; |ULA|74382:inst|64   ; |ULA|74382:inst|64   ; out0             ;
+; |ULA|74382:inst|63   ; |ULA|74382:inst|63   ; out0             ;
+; |ULA|74382:inst|10   ; |ULA|74382:inst|10   ; out0             ;
+; |ULA|74382:inst|11   ; |ULA|74382:inst|11   ; out0             ;
+; |ULA|74382:inst|12   ; |ULA|74382:inst|12   ; out0             ;
+; |ULA|74382:inst|15   ; |ULA|74382:inst|15   ; out0             ;
+; |ULA|74382:inst|20   ; |ULA|74382:inst|20   ; out0             ;
+; |ULA|74382:inst|19   ; |ULA|74382:inst|19   ; out0             ;
+; |ULA|74382:inst|18   ; |ULA|74382:inst|18   ; out0             ;
+; |ULA|74382:inst|17   ; |ULA|74382:inst|17   ; out0             ;
+; |ULA|74382:inst|40   ; |ULA|74382:inst|40   ; out0             ;
+; |ULA|74382:inst|35   ; |ULA|74382:inst|35   ; out0             ;
+; |ULA|74382:inst|36   ; |ULA|74382:inst|36   ; out0             ;
+; |ULA|74382:inst|37   ; |ULA|74382:inst|37   ; out0             ;
+; |ULA|74382:inst|38   ; |ULA|74382:inst|38   ; out0             ;
+; |ULA|74382:inst|41   ; |ULA|74382:inst|41   ; out0             ;
+; |ULA|74382:inst|46   ; |ULA|74382:inst|46   ; out0             ;
+; |ULA|74382:inst|45   ; |ULA|74382:inst|45   ; out0             ;
+; |ULA|74382:inst|44   ; |ULA|74382:inst|44   ; out0             ;
+; |ULA|74382:inst|43   ; |ULA|74382:inst|43   ; out0             ;
+; |ULA|74382:inst|81   ; |ULA|74382:inst|81   ; out0             ;
+; |ULA|74382:inst|85   ; |ULA|74382:inst|85   ; out0             ;
+; |ULA|74382:inst|65   ; |ULA|74382:inst|65   ; out0             ;
+; |ULA|74382:inst|84   ; |ULA|74382:inst|84   ; out0             ;
+; |ULA|74382:inst|83   ; |ULA|74382:inst|83   ; out0             ;
+; |ULA|74382:inst|82   ; |ULA|74382:inst|82   ; out0             ;
+; |ULA|74382:inst|80   ; |ULA|74382:inst|80   ; out0             ;
+; |ULA|74382:inst|69   ; |ULA|74382:inst|69   ; out0             ;
+; |ULA|74382:inst|70   ; |ULA|74382:inst|70   ; out0             ;
+; |ULA|74382:inst|71   ; |ULA|74382:inst|71   ; out0             ;
+; |ULA|74382:inst|72   ; |ULA|74382:inst|72   ; out0             ;
+; |ULA|74382:inst|73   ; |ULA|74382:inst|73   ; out0             ;
+; |ULA|74382:inst|74   ; |ULA|74382:inst|74   ; out0             ;
+; |ULA|74382:inst|75   ; |ULA|74382:inst|75   ; out0             ;
+; |ULA|74382:inst|76   ; |ULA|74382:inst|76   ; out0             ;
+; |ULA|74382:inst|77   ; |ULA|74382:inst|77   ; out0             ;
+; |ULA|74382:inst|67   ; |ULA|74382:inst|67   ; out0             ;
+; |ULA|74382:inst|66   ; |ULA|74382:inst|66   ; out0             ;
++----------------------+----------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+    Info: Processing started: Mon Sep 16 11:05:16 2019
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off ULA -c ULA
+Info: Using vector source file "Testes/ULA_Teste1.vwf"
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is       0.00 %
+Info: Number of transitions in simulation is 0
+Info: Quartus II Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 146 megabytes
+    Info: Processing ended: Mon Sep 16 11:05:17 2019
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+

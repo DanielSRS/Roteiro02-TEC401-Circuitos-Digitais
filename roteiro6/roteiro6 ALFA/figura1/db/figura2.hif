@@ -1,0 +1,215 @@
+Version 9.0 Build 132 02/25/2009 SJ Full Version
+2
+51
+OFF
+OFF
+OFF
+ON
+ON
+OFF
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+figura2
+# storage
+db|figura2.(0).cnf
+db|figura2.(0).cnf
+# case_insensitive
+# source_file
+figura2.bdf
+26e6ed51ac1d82a9d5b5b465b8fa47
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+figura2:inst
+}
+# macro_sequence
+
+# end
+# entity
+74185
+# storage
+db|figura2.(1).cnf
+db|figura2.(1).cnf
+# case_insensitive
+# source_file
+|opt|altera|9.0|quartus|libraries|others|maxplus2|74185.bdf
+4ce9bced35b34649460f16ed5d7a51b
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+figura2:inst|74185:inst8
+figura2:inst|74185:inst
+figura2:inst|74185:inst20
+}
+# macro_sequence
+
+# end
+# entity
+7447
+# storage
+db|figura2.(4).cnf
+db|figura2.(4).cnf
+# case_insensitive
+# source_file
+|opt|altera|9.0|quartus|libraries|others|maxplus2|7447.bdf
+b866247e9e4e23608138281b57c7e83
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+figura1:inst2|7447:inst18
+}
+# macro_sequence
+
+# end
+# entity
+multiplexador
+# storage
+db|figura2.(5).cnf
+db|figura2.(5).cnf
+# case_insensitive
+# source_file
+multiplexador|multiplexador.bdf
+1114afc63319a4762a4a9e22d7a7e9
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+figura1:inst2|multiplexador:inst1
+}
+# macro_sequence
+
+# end
+# entity
+contador
+# storage
+db|figura2.(6).cnf
+db|figura2.(6).cnf
+# case_insensitive
+# source_file
+contador|contador.bdf
+5ce3f2adf80f4f19efdb4868dce14d5
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+figura1:inst2|contador:inst3
+figura1:inst2|divisorDeFrequencia:inst|contador:inst9
+figura1:inst2|divisorDeFrequencia:inst|contador:inst8
+figura1:inst2|divisorDeFrequencia:inst|contador:inst7
+figura1:inst2|divisorDeFrequencia:inst|contador:inst6
+figura1:inst2|divisorDeFrequencia:inst|contador:inst5
+figura1:inst2|divisorDeFrequencia:inst|contador:inst4
+figura1:inst2|divisorDeFrequencia:inst|contador:inst3
+figura1:inst2|divisorDeFrequencia:inst|contador:inst2
+figura1:inst2|divisorDeFrequencia:inst|contador:inst
+figura1:inst2|divisorDeFrequencia:inst|contador:inst10
+figura1:inst2|divisorDeFrequencia:inst|contador:inst11
+}
+# macro_sequence
+
+# end
+# entity
+codificador
+# storage
+db|figura2.(8).cnf
+db|figura2.(8).cnf
+# case_insensitive
+# source_file
+codificador|codificador.bdf
+3f46ac9dd145c719c74e7a6aba8a2e3
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+figura1:inst2|codificador:inst5
+}
+# macro_sequence
+
+# end
+# entity
+divisorDeFrequencia
+# storage
+db|figura2.(7).cnf
+db|figura2.(7).cnf
+# case_insensitive
+# source_file
+divisorDeFrequencia|divisorDeFrequencia.bdf
+9db27f18137625918e64d85c6ea01be4
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+figura1:inst2|divisorDeFrequencia:inst
+}
+# macro_sequence
+
+# end
+# entity
+figura1
+# storage
+db|figura2.(3).cnf
+db|figura2.(3).cnf
+# case_insensitive
+# source_file
+figura1.bdf
+294d2deecb79f1e9d85c7931f015e147
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+figura1:inst2
+}
+# macro_sequence
+
+# end
+# entity
+Experimento1
+# storage
+db|figura2.(2).cnf
+db|figura2.(2).cnf
+# case_insensitive
+# source_file
+codificador|Experimento1.bdf
+70ff9cd04f6e627c149b8e863de138
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+

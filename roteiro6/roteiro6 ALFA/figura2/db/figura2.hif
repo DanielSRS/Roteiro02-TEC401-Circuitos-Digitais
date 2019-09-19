@@ -1,0 +1,64 @@
+Version 9.0 Build 132 02/25/2009 SJ Full Version
+2
+51
+OFF
+OFF
+OFF
+ON
+ON
+OFF
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+figura2
+# storage
+db|figura2.(0).cnf
+db|figura2.(0).cnf
+# case_insensitive
+# source_file
+figura2.bdf
+26e6ed51ac1d82a9d5b5b465b8fa47
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+74185
+# storage
+db|figura2.(1).cnf
+db|figura2.(1).cnf
+# case_insensitive
+# source_file
+|opt|altera9.0|quartus|libraries|others|maxplus2|74185.bdf
+4ce9bced35b34649460f16ed5d7a51b
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+74185:inst8
+74185:inst
+74185:inst20
+}
+# macro_sequence
+
+# end
+# complete
+
